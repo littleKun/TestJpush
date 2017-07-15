@@ -21,5 +21,6 @@ public class MyApp extends Application {
         Set<String> set = new HashSet<>();
         set.add("andfixdemo");//名字任意，可多添加几个
         JPushInterface.setTags(this, set, null);//设置标签
+        //我又来测试了一下
     }
 }
